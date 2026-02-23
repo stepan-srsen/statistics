@@ -3,5 +3,19 @@ channels:
   - https://repo.prefix.dev/emscripten-forge-dev
   - https://repo.prefix.dev/conda-forge
 dependencies:
-  - xeus-python
+  - xeus-python=0.17.6 # switch later to 0.17.8, 0.17.7 has corrupted syntax hightlighting
+  - xeus-r
+  - nbformat
+  - ipywidgets
+  - anywidget
   - ipycanvas
+  - numpy
+  - scipy
+  - pandas
+  - sympy
+  - scikit-learn
+  - statsmodels
+  - matplotlib
+  - ipympl
+  - seaborn
+  - plotly
